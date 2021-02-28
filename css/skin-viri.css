@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	font-family:'Roboto', sans-serif;
+} 
+
+body {
+	background:#fff;
+}
+
+.row-viri {
+	margin-top: 50px;
+}
+
+li {
+	padding-bottom: 5px;
+}
+#main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.fluid {
+	float: left;
+	width: 100%;
+}
+
+img {
+	max-width:100%;
+}
+
+header {
+	color: #fff;
+}
+
+
+.photo {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+a {
+	color: #000;
+}
+
+h3 {
+	color: #232323;
+}
+
+p  {
+	font-size: 18px;
+}
+
+
+
+#content {
+	background-color: #fff;
+}
+
+h1 {
+	color: #ff7675 !important;
+	font-family:'Roboto', sans-serif;
+	font-weight:600 !important;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h2 {
+	color: #898989 !important;
+	font-family:'Roboto', sans-serif !important;
+	font-weight: 300 !important;
+	text-align: left;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	font-size: 32px !important;
+}
+
+h3 {
+	color: #ff7675 !important;
+	font-family:'Roboto', sans-serif !important;
+	font-weight: 600 !important;
+	text-align: left;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	font-size: 18px !important;
+}
+
+.vr-ocala {
+	padding-top: 100px;
+}
+
+.line {
+	height: 4px;
+	width: 60px;
+	background-color: #ff7675;
+	margin-bottom: 30px;
+}
+
+h4 {
+	color: #fff !important;
+	font-family:'Roboto', sans-serif;
+	font-weight:300 !important;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.damoklov-mec {
+	
+padding-right: 15px;
+}
+.zgodovina-1 {
+	padding-top: 60px;
+}
+
+.razlike {
+	padding-top: 50px;
+}
+
+.razlike h3 {
+	display: inline-block;
+	float: left;
+}
+
+.full-width {
+	background-color: #ECECEC;
+	max-height: 660px;
+	margin-top: 40px;
+	margin-left: -33.33%;
+    margin-right: -33.33%;
+	padding-bottom: 40px;
+}
+
+
+.etimologija p {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.aplikacije {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.item {
+	float: left;
+	width: 100%;
+	display: block;
+	position: relative;
+	padding-bottom: 30px;
+}
+.item img {
+	position:relative;
+	z-index:5;
+	width: 100%;
+}
+
+.item h3 {
+	position:absolute;
+	left:0;
+	bottom:30px;
+	display: block;
+	width: 100%;
+	padding: 20px 20px;
+	background: rgba(0, 99, 167, .85);
+	color:#fff;
+	margin:0;
+	z-index:10;
+	text-transform:uppercase;
+	-webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.item:hover h3 {
+	padding:25px 30px;
+}
+
+
+a.active {
+	color: #fff !important;
+	font-family:'Roboto', sans-serif;
+	font-weight: 800 !important;
+	background-color:#ff7675 !important;
+}
+
+#slider {
+	position:relative;
+}
+
+.naslov {
+	color: #fff !important;
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.box {
+	position: absolute;
+	max-width: 450px;
+	top: 20%;
+}
+
+.col-sm-4 h3 {
+	font-family:'Roboto', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+
+.box h3 {
+	color: #fff !important;
+	font-weight: 500;
+	font-family:'Roboto', sans-serif;
+	letter-spacing: 2px;
+	padding-top: 20px;
+}
+
+
+.gumb-1 {
+	background-color: #232323;
+	width: 140px;
+	color: #fff;
+	font-family:'Roboto', sans-serif;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display:block !important;
+}
+
+
+h4 {
+	color: #232323 !important;
+	font-weight:300 !important;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+h5 {
+	color: #0063a7 !important;
+	font-family:'Roboto', sans-serif;
+	font-weight:400 !important;
+	font-size:18px !important;
+	padding-top: 10px;
+	line-height: 1.5em;
+}
+
+p {
+	color: #000 !important;
+	font-family:'Roboto', sans-serif;
+	font-weight:300 !important;
+}
+	
+
+footer#sitefooter {
+	background: #232323;
+	margin-top: 60px;
+	padding: 30px 0 15px;
+	color: #fff;
+}
+
+.noga p {
+	color: #fff !important;
+	text-align: center;
+	font-family:'Roboto', sans-serif;
+	font-weight: 200 !important;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 30px 15px;
+  text-decoration: none;
+  font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400 !important;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F0F0F0;
+  color: black;
+	text-decoration: none;
+}
+
+.topnav a:active {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600 !important;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  color: #ff7675;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600 !important;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	top: 0;
+	  right: 0;
+  }
+.topnav a.icon {
+	padding-top: 3px;
+	padding-bottom: 30px;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: right;
+    display: block;
+    text-align: left;
+	  padding-top: 5px !important;
+	  padding-bottom: 5px !important;
+  }
+#myTopnav.topnav.responsive 
+	{
+	  padding-top: 40px !important;
+	  padding-bottom: 10px !important;
+  }
+	 }
+
+.drag-drop {
+	margin-top: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 80px;
+}
+	
