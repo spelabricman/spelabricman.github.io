@@ -163,7 +163,7 @@ a.active {
 	position: absolute;
 	max-width: 450px;
 	background: rgba(255,255,255,0.7);
-	padding: 20px 20px 30px 35px;
+	padding: 20px 20px 10px 35px;
 	top: 20%;
 }
 
