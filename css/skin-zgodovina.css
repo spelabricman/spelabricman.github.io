@@ -63,6 +63,13 @@ p  {
 	background-color: #fff;
 }
 
+li  {
+		font-family:'Roboto', sans-serif !important;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 2em;
+}
+
 h1 {
 	color: #73083F !important;
 	font-family: 'Inter', sans-serif;
@@ -239,6 +246,32 @@ a.active {
 	display:block !important;
 }
 
+.gumb-2 {
+	background-color: #FFF;
+	border: 2px solid #73083F !important;
+	width: 200px;
+	height: 50px;
+	color: #73083F;;
+	font-family: 'Inter', sans-serif;
+	font-weight: 800 !important;
+	letter-spacing: 1px;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display:block !important;
+	transition-duration: 0.4s;
+	text-decoration: none;
+}
+
+.gumb-2:hover {
+	background-color: #73083F;!important;
+	border: 2px solid #73083F;
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
 
 h4 {
 	color: #232323 !important;
@@ -282,6 +315,7 @@ footer#sitefooter {
 
 .topnav {
   overflow: hidden;
+	float: right;
 }
 
 /* Style the links inside the navigation bar */
@@ -290,7 +324,7 @@ footer#sitefooter {
   display: block;
   color: #333;
   text-align: center;
-  padding: 30px 15px;
+  padding: 30px 30px;
   text-decoration: none;
   font-size: 17px;
 	font-family: 'Inter', sans-serif;
@@ -346,6 +380,13 @@ footer#sitefooter {
 	  padding-top: 5px !important;
 	  padding-bottom: 5px !important;
   }
+	
+@media screen and (max-width: 600px) {
+  .gumb-2 {
+	  margin:auto !important;
+  }
+}
+
 #myTopnav.topnav.responsive 
 	{
 	  padding-top: 40px !important;

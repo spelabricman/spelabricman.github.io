@@ -53,31 +53,11 @@ p  {
 
 h1 {
 	color: #73083F !important;
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter', sans-serif !important;
 	font-weight:600 !important;
-	text-align: center;
+	text-align: left;
 	letter-spacing: 2px;
 }
-
-.naslov {
-	color: #fff !important;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 15px;
-
-}
-
-h2 {
-	color: #898989 !important;
-	font-family:'Inter', sans-serif !important;
-	font-weight: 300 !important;
-	text-align: center;
-	letter-spacing: 2px;
-	padding-bottom: 10px;
-	font-size: 32px !important;
-}
-
-
 
 
 h4 {
@@ -96,7 +76,7 @@ h4 {
 }
 
 #etimologija {
-	padding-top: 50px;
+	padding-top: 0px;
 
 }
 
@@ -114,9 +94,7 @@ h4 {
 	margin-top: 40px;
 	margin-left: -33.33%;
     margin-right: -33.33%;
-	padding-bottom: 70px;
-	padding-top: 40px;
-	background-color: #F3F3F3;
+	padding-bottom: 40px;
 }
 
 
@@ -185,10 +163,7 @@ a.active {
 
 .box {
 	position: absolute;
-	max-width: 450px;
-	padding: 20px 20px 10px 35px;
-	background-color: rgba(255,255,255,0.75);
-	top: 20%;
+	padding-top: 30px;
 }
 
 .col-sm-4 h3 {
@@ -197,6 +172,13 @@ a.active {
 	font-weight: 300;
 }
 
+.naslov {
+	color: #fff !important;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+
+}
 
 .box h3 {
 	color: #232323 !important;
