@@ -87,7 +87,7 @@ h2 {
 	color: #898989 !important;
 	font-family:'Inter', sans-serif !important;
 	font-weight: 300 !important;
-	text-align: center;
+	text-align: left;
 	letter-spacing: 2px;
 	padding-bottom: 10px;
 	font-size: 32px !important;
@@ -325,6 +325,43 @@ footer#sitefooter {
 .topnav {
   overflow: hidden;
 	float: right;
+}
+
+.breadcrumb {
+  background-color: #fff !important;
+}
+
+ul.breadcrumb {
+  padding: 10px 0px;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #73083F;
+  text-decoration: none;
+font-family: 'Inter', sans-serif;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #73083F;
+  text-decoration: underline;
 }
 
 /* Style the links inside the navigation bar */

@@ -22,6 +22,25 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 	
+	<!--  Copy the following scripts in your page header -->
+<script type="text/javascript" src="lib/big.min.js"></script>
+<script type="text/javascript" src="lib/gl-matrix-min.js"></script>
+<script type="text/javascript" src="lib/jszip.min.js"></script>
+<script type="text/javascript" src="lib/core.min.js"></script>
+<script type="text/javascript" src="lib/geom.min.js"></script>
+<script type="text/javascript" src="lib/stroke.min.js"></script>
+<script type="text/javascript" src="lib/batik-svgpathparser.min.js"></script>
+<script type="text/javascript" src="lib/jsXmlSaxParser.min.js"></script>
+<script type="text/javascript" src="lib/triangulator.min.js"></script>
+<script type="text/javascript" src="lib/viewmodel.min.js"></script>
+<script type="text/javascript" src="lib/viewhome.min.js"></script>
+
+<style type="text/css">
+/* The class of components handled by the viewer */
+.viewerComponent  {
+}
+</style>
+	
 </head>
 
 <body>
@@ -62,33 +81,48 @@
     
 <section id="content" class="fluid">
 	
+	<div class="container">
+		<div class="row" style="margin-top: 20px;">
+		<div class="col-sm-12">
+			<ul class="breadcrumb">
+  <li><a href="index.html">Domov</a></li>
+  <li><a href="zbirka-nalog.html">Zbirka nalog</a></li>
+  <li>Naloga 2</li>
+</ul>
+			</div>
+		</div>
+	</div>
+	
 	<div id="etimologija" class="container">
     	 <h2>Opis naloge</h2>
         <div class="row etimologija">
-			<div class="col-sm-12">
-       		<p style="text-align: center; padding-right: 10%; padding-left: 10%;">2. domača naloga je sestavljena iz večih delov, in sicer smo v prvem koraku postavili svojo spletno stran, kamor smo vključili naša imena in priimke ter dodali še HDR fotografijo in grafiko. V nadaljevanju smo na spletno stran vključili še nekoliko zahtevnejše multimedijske elemente: zvok, GIF animacijo, video in SweetHome 3D interaktivni 3D produkt.<br></p>
-				
-			<p style="font-family: 'Venetia'; letter-spacing: 1px;">Moje ime je Venetia, sem navadne različice in sem bila narejena v OTF formatu. <br>Avtorja pisave: Špela Bricman in Advan Bratić.</p>
+			<div class="col-sm-7">
+       		<p style="text-align: left; padding-right: 10%;">2. domača naloga je sestavljena iz večih delov, in sicer smo v prvem koraku postavili svojo spletno stran, kamor smo vključili naša imena in priimke ter dodali še HDR fotografijo in grafiko. V nadaljevanju smo na spletno stran vključili še nekoliko zahtevnejše multimedijske elemente: zvok, GIF animacijo, video in SweetHome 3D interaktivni 3D produkt.<br></p>
+			</div>
+			<div class="col-sm-5">	
+			<p style="font-family: 'Venetia'; letter-spacing: 1px; text-align: left;">Špela Bricman in Gabrijela Cojzer. <br><br><span style="font-size: 15px;"> Naloga 2b: pisava v OTF formatu.</span></p>
 	
-				
+				</div>
 			</div>
 			
          </div>
+	
+	
 		
 	<div class="container">
         <div class="row zgodovina-1">
 			<div class="col-sm-4">
        		<img src="tloris-1.webp" alt="Tloris stanovanja" class="damoklov-mec"/>
-			<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">HDR fotografija v JPG formatu.</p>
+			<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">HDR fotografija v JPG formatu. <br> Velkost: ?? kB</p>
 			</div>
 			
 			<div class="col-sm-4">
 			<img src="tloris-1.webp" alt="Tloris stanovanja" class="damoklov-mec"/>
-			<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">HDR fotografija v WebP formatu.</p>
+			<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">HDR fotografija v WebP formatu. <br> Velkost: ?? kB</p>
 			</div>
 			
 			<div class="col-sm-4">
-			<h3>HDR fotografija</h3>
+			<h3>HDR fotografija (2b)</h3>
 				<div class="line"></div>
 				<p>Na levi fotografiji si lahko ogledamo HDR fotografijo v JPG in WebP formatu.</p>
 			</div>
@@ -100,7 +134,7 @@
 		<div class="container">
         <div class="row zgodovina-1">
 			<div class="col-sm-4">
-       		<h3>Grafika</h3>
+       		<h3>Grafika (2b)</h3>
 				<div class="line"></div>
        		<p>Na desni strani si lahko ogledamo logotip in plakat, ki smo ju pripravili za kampanjo na temo medvrstniškega nasilja, in sicer pri predmetu Odnosi z javnostmi.</p>
 			</div>
@@ -114,8 +148,8 @@
 			
 			<div class="col-sm-4">
 				
-				<img src="poskrbi za petke 1500x1080.png" alt="3D izris"/>
-				<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">Plakat Poskrbi za petke (1500x1080)</p>
+				<img src="poskrbi za petke 1500x1080.png" alt="Plakat Poskrbi za petke"/>
+				<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">Plakat Poskrbi za petke v PNG formatu. <br>Velikost: 115 kB</p>
 			
 			</div>
          </div>
@@ -128,17 +162,17 @@
         <div class="row zgodovina-1">
 			<div class="col-sm-4">
 				<img src="dnevna-soba.webp" alt="dnevna soba" class="damoklov-mec"/>
-				<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">Zvok</p>
+				<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">Zvok v ?? formatu<br> Velkost: ?? kB</p>
        		</div>
 			
 			<div class="col-sm-4">
 				<img src="dnevna-soba.webp" alt="dnevna soba" class="damoklov-mec"/>
-				<p style="text-align: center; padding-top:20px;font-size: 15px; font-weight: 500 !important;">GIF animacija</p>
+				<p style="text-align: center; padding-top:20px;font-size: 15px; font-weight: 500 !important;">GIF animacija. <br> Velkost: ?? kB</p>
        		</div>
 			
 			<div class="col-sm-4">
 				
-				<h3>Zvok in GIF animacija</h3>
+				<h3>Zvok in GIF animacija (2c)</h3>
 				<div class="line"></div>
        		<p>Meri 24 kvadratnih metrov in vključuje kotno sedežno garnituro, regal, TV in nekaj dodatkov.</p>
 			
@@ -151,7 +185,7 @@
 		<div class="container">
         <div class="row zgodovina-1">
 			<div class="col-sm-7">
-       		<h3>Video</h3>
+       		<h3>Video (2c)</h3>
 				<div class="line"></div>
        		<p>Meri 26 kvadratnih metrov. Na sliki lahko vidimo dve garderobni omari, obešalnik za oblačila in nekaj detajlov.<br><br>
 
@@ -168,25 +202,101 @@ Iz hodnika lahko pridemo v jedilnico, dnevno sobo, kopalnico ali splanico. Stopn
 	</div>
 	</section>
 	
+	
 	<section class="fluid">
 		<div class="container">
-        <div class="row zgodovina-1">
+			<div class="row aplikacije">
+       
+        
+        
+       		<div class="col-sm-6">
+            		<div>
+  <!-- Copy the following canvas and components in your page, changing their size / texts and other values if needed  -->
+  <canvas id="viewerCanvas" class="viewerComponent" width="500" height="400"
+          style="background-color: #fff; outline:none; touch-action: none;" tabIndex="1"></canvas>
+  <div id="viewerProgressDiv" style="width: 400px; position: relative; top: -350px; left: 200px; background-color: rgba(128, 128, 128, 0.7); padding: 20px; border-radius: 25px">
+    <progress id="viewerProgress"  class="viewerComponent" value="0" max="200" style="width: 400px"></progress>
+    <label id="viewerProgressLabel" class="viewerComponent" style="margin-top: 2px; display: block; margin-left: 10px"></label>
+  </div>
+  <div style="margin-top: -60px">
+    <input  id="aerialView"   class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
+      <label class="viewerComponent" for="aerialView" style="visibility: hidden;">Aerial view</label>
+    <input  id="virtualVisit" class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
+      <label class="viewerComponent" for="virtualVisit" style="visibility: hidden;">Virtual visit</label>
+    <select id="levelsAndCameras" class="viewerComponent" style="visibility: hidden;"></select>
+  </div>
+</div>
+<div style="position: absolute; bottom: 35px; text-align: left; width: 95%; z-index: -1; font-size: 10px;">
+  <a href="http://www.sweethome3d.com">Sweet Home 3D</a> HTML5 Viewer / Version 1.4 - Distributed under GNU General Public License
+</div>
+            </div>
+          
+            
 			<div class="col-sm-6">
-				<img src="jedilnica.webp" alt="jedilnica" class="damoklov-mec"/>
-				<p style="text-align: center; padding-top:20px;">Jedilnica</p>
-       		</div>
-			
-			<div class="col-sm-6">
-				
-				<h3>SweetHome 3D interaktivni produkt</h3>
+                <h3  style="line-height: 1.5em;"><a id="3Dpogled"></a>SweetHome 3D interaktivni produkt (2c)</h3>
 				<div class="line"></div>
-       		<p>Velikost jedilnice je 16 kvadratnih metrov. Obsega pa 2 stola, jedilni kot, mizo, klop, kamni, regal in TV. Iz jedilnice je prehod v kuhinjo.</p>
-			
+           		 <p> S programom Sweet Home 3D smo izrisali stanovanje s sedmimi sobami, ki skupaj merijo 112 kvadratnih metrov.
+			<br><br>Za približanje 3D modela uporabi <strong>SHIFT + kolešček na miški.</strong></p>
+            </div>
+         
+            </div>
 			</div>
-         </div>
-		</div>
-	</section>
+			</div>
+</section>
 	
+
+
+<!-- Copy the following script to view your home in the previous canvas -->
+<script type="text/javascript">
+  var homeUrl = "Na%C4%8Drt.zip";
+  var onerror = function(err) {
+      if (err == "No WebGL") {
+        alert("Sorry, your browser doesn't support WebGL.");
+      } else {
+        console.log(err.stack);
+        alert("Error: " + (err.message  ? err.constructor.name + " " +  err.message  : err));
+      }
+    };
+  var onprogression = function(part, info, percentage) {
+      var progress = document.getElementById("viewerProgress"); 
+      if (part === HomeRecorder.READING_HOME) {
+        // Home loading is finished 
+        progress.value = percentage * 100;
+        info = info.substring(info.lastIndexOf('/') + 1);
+      } else if (part === Node3D.READING_MODEL) {
+        // Models loading is finished 
+        progress.value = 100 + percentage * 100;
+        if (percentage === 1) {
+          document.getElementById("viewerProgressDiv").style.visibility = "hidden";
+        }
+      }
+    
+      document.getElementById("viewerProgressLabel").innerHTML = 
+          (percentage ? Math.floor(percentage * 100) + "% " : "") + part + " " + info;
+    };
+   
+  // Display home in canvas 3D
+  // Mouse and keyboard navigation explained at 
+  // http://sweethome3d.cvs.sf.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html
+  // You may also switch between aerial view and virtual visit with the space bar
+  // For browser compatibility, see http://caniuse.com/webgl
+  viewHome("viewerCanvas",    // Id of the canvas
+           homeUrl,           // URL or relative URL of the home to display 
+           onerror,           // Callback called in case of error
+           onprogression,     // Callback called while loading 
+          {roundsPerMinute: 0,                    // Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing or equal to 0 
+           navigationPanel: "none",               // Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
+                                                  // attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing 
+           aerialViewButtonId: "aerialView",      // Id of the aerial view radio button, radio buttons hidden if missing  
+           virtualVisitButtonId: "virtualVisit",  // Id of the aerial view radio button, radio buttons hidden if missing  
+           levelsAndCamerasListId: "levelsAndCameras",          // Id of the levels and cameras select component, hidden if missing
+        /* level: "Roof", */                                    // Uncomment to select the displayed level, default level if missing */
+        /* selectableLevels: ["Ground floor", "Roof"], */       // Uncomment to choose the list of displayed levels, no select component if empty array */
+        /* camera: "Exterior view", */                          // Uncomment to select a camera, default camera if missing */
+        /* selectableCameras: ["Exterior view", "Kitchen"], */  // Uncomment to choose the list of displayed cameras, no camera if missing */
+           activateCameraSwitchKey: true                        // Switch between top view / virtual visit with space bar if not false or missing */
+          });
+</script>
 	
 	
 <footer id="sitefooter" class="fluid">
