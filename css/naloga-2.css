@@ -6,6 +6,16 @@
   src: url("../Venetia-Regular.otf");
 }
 
+@font-face {
+  font-family: JosefinSans-SemiBold;
+  src: url("../JosefinSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Caveat-Regular;
+  src: url("../Caveat-Regular.ttf");
+}
+
 html {
 	font-family: 'Inter', sans-serif;
 } 
@@ -69,10 +79,14 @@ p  {
 }
 
 li  {
-		font-family:'Roboto', sans-serif !important;
+	font-family:'Inter', sans-serif !important;
 	font-size: 18px;
-	font-weight: 600;
 	line-height: 2em;
+}
+
+ul {
+	padding-top:10px;
+	padding-bottom: 20px;
 }
 
 h1 {
@@ -112,7 +126,6 @@ h3 {
 }
 
 h4 {
-	color: #fff !important;
 	font-family: 'Inter', sans-serif;
 	font-weight:300 !important;
 	text-align: center;
@@ -270,6 +283,11 @@ a.active {
 	text-decoration: none;
 }
 
+.slika-tekst {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 .gumb-2:hover {
 	background-color: #73083F;!important;
 	border: 2px solid #73083F;
@@ -280,12 +298,11 @@ a.active {
 
 h4 {
 	color: #232323 !important;
-	font-weight:300 !important;
-	font-family: 'Roboto', sans-serif;
-	display: inline-block;
-	position: absolute;
-	margin: 0;
-	padding: 0;
+	font-weight:500 !important;
+	font-family: 'Inter', sans-serif;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 5px;
 }
 
 h5 {
@@ -335,6 +352,8 @@ ul.breadcrumb {
   padding: 10px 0px;
   list-style: none;
 }
+
+
 
 /* Display list items side by side */
 ul.breadcrumb li {
@@ -438,6 +457,20 @@ ul.breadcrumb li a:hover {
 	  padding-top: 40px !important;
 	  padding-bottom: 10px !important;
   }
+	
+@media screen and (max-width: 600px) {
+  .slika-text {
+	  padding-top: 40px; !important;
+  }
+}
+	
+	@media screen and (max-width: 600px) {
+  .col-sm-5,.col-sm-3,.col-sm-4,.col-sm-6{
+	  padding-top: 40px; !important;
+  }
+}
+
+
 	
 
 	
