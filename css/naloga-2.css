@@ -16,6 +16,16 @@
   src: url("../Caveat-Regular.ttf");
 }
 
+@font-face {
+  font-family: Westgate-SemiBold;
+  src: url("../Westgate-Semibold.woff");
+}
+
+a {
+	color: #73083F !important;
+} 
+
+
 html {
 	font-family: 'Inter', sans-serif;
 } 
