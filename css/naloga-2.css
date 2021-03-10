@@ -21,8 +21,15 @@
   src: url("../Westgate-Semibold.woff");
 }
 
-a {
+@font-face {
+  font-family: CimeroPro;
+  src: url("../CimeroPro.otf");
+}
+
+
+a.link-content {
 	color: #73083F !important;
+	font-weight: 500;
 } 
 
 
