@@ -8,7 +8,7 @@
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/skin.js"></script>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="css/skin-zgodovina.css" />
+<link rel="stylesheet" type="text/css" href="css/naloga-5.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="elegant_font/HTML CSS/style.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Source+Sans+Pro:300,400,600,700,900&amp;subset=latin-ext" rel="stylesheet">
@@ -17,6 +17,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <link rel="stylesheet" type="text/css" href="https://www.x3dom.org/x3dom/release/x3dom.css">
 <script type="text/javascript" src="https://www.x3dom.org/x3dom/release/x3dom.js"></script>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 		
 	
 </head>
@@ -34,7 +35,7 @@
   <div class="container">
     <div id="slider-box" class="box">
       <h1 class="naslov">5. NALOGA<br>
-        <span style="font-size:18px; font-weight: 500;">X3DOM - prikaz 3D objektov na spletu</span></h1>
+        <span style="font-size:18px; font-weight: 500;">Prikaz 3D objektov na spletu</span></h1>
     </div>
   </div>
   <img class="naslovna" src="naslovna-podstrani.webp" alt="slika 1"> </section>
@@ -72,7 +73,7 @@ Izdelan 3D model smo morali prikazati na spletni strani s pomočjo X3DOM-a. Za b
    
 	  </div>
     <div class="col-sm-5" style="padding-bottom: 60px;">
-      <h3>Opis primera</h3>
+      <h3>X3DOM</h3>
       <div class="line"></div>
       <p>Objekt smo ustvarili v programu Blender, ki je namenjen oblikovanju 3D modelov. Krof smo shranili v formatu X3D in ga s pomočjo vtičnika za spletni brskalnik tudi realizirali.</p>
 
@@ -82,8 +83,7 @@ Izdelan 3D model smo morali prikazati na spletni strani s pomočjo X3DOM-a. Za b
 		<div class="container">
         <div class="row zgodovina-1">
 			<div class="col-sm-5" id="tezave">
-       		<h3>Težave</h3>
-				<div class="line"></div>
+       		<h4>Težave - X3DOM</h4>
        		<p>Pri izvozu v X3D format smo naleteli na težave z uvažanjem materiala oziroma tekstur modela. Prva različica objekta na spletni strani je bila brezbarvna, zato smo morali spremeniti barvo krofa neposredno v kodi znotraj X3D formata.<br><br>
 3D model smo na spletno stran umestili s pomočjo značke <a href="https://doc.x3dom.org/tutorials/models/inline/index.html" target="_blank;">< inline url > </a>. S takšnim načinom nam ni bilo potrebno pretvarjati X3D dokumenta v HTML5 zapis, saj smo model na spletno stran uvozili na podoben način, kot bi uvozili zunanjo CSS slogovno predlogo.
 </p>
@@ -109,9 +109,57 @@ Izdelan 3D model smo morali prikazati na spletni strani s pomočjo X3DOM-a. Za b
 	</div>
 	</section>
 	  
+  </div>
+</div>
+
+	
+<div class="container">
+  <div class="row zgodovina-1">
+    <div class="col-sm-7">
+    	
+		<model-viewer src="donat.glb" alt="3D model donata" auto-rotate camera-controls></model-viewer>    
+   
+	  </div>
+    <div class="col-sm-5" style="padding-bottom: 60px;">
+      <h3>Model Viewer</h3>
+      <div class="line"></div>
+      <p>Objekt smo ustvarili v programu Blender, ki je namenjen oblikovanju 3D modelov. Krof smo shranili v formatu X3D in ga s pomočjo vtičnika za spletni brskalnik tudi realizirali.</p>
+
+    </div>
+	  
+	  <section class="fluid">
+		<div class="container">
+        <div class="row zgodovina-1">
+			<div class="col-sm-5" id="tezave">
+       		<h4>Težave - Model Viewer</h4>
+       		<p>Pri izvozu v X3D format smo naleteli na težave z uvažanjem materiala oziroma tekstur modela. Prva različica objekta na spletni strani je bila brezbarvna, zato smo morali spremeniti barvo krofa neposredno v kodi znotraj X3D formata.<br><br>
+3D model smo na spletno stran umestili s pomočjo značke <a href="https://doc.x3dom.org/tutorials/models/inline/index.html" target="_blank;">< inline url > </a>. S takšnim načinom nam ni bilo potrebno pretvarjati X3D dokumenta v HTML5 zapis, saj smo model na spletno stran uvozili na podoben način, kot bi uvozili zunanjo CSS slogovno predlogo.
+</p>
+			</div>
+			
+			<div class="col-sm-1">
+       		
+			</div>
+			
+			<div class="col-sm-6">
+				
+				<img src="html-koda.png" alt="3D izris"/>
+				<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">HTML koda, s pomočjo katere smo uvozili 3D model na spletno stran.</p>
+				
+				<img style="padding-top: 40px;" src="x3d-koda.png" alt="3D izris"/>
+				<p style="text-align: center; padding-top:20px; font-size: 15px; font-weight: 500 !important;">Sprememba barv modela znotraj kode v X3D formatu.</p>
+			
+			</div>
+			
+		
+			
+         </div>
+	</div>
+	</section>
 	  
   </div>
 </div>
+	
 </section>
 <footer id="sitefooter" class="fluid">
   <div class="container">
